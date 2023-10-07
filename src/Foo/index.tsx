@@ -1,5 +1,8 @@
+import { QRCodeSVG } from 'qrcode.react';
 import React, { type FC } from 'react';
 
-const Foo: FC<{ title: string }> = (props) => <h4>{props.title}</h4>;
+const Foo: FC<{ title: string }> = () => {
+  return <QRCodeSVG value="https://reactjs.org/" />;
+};
 
 export default Foo;

@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "dynamic-qr-code ": ["src"],
-      "dynamic-qr-code /*": ["src/*", "*"]
+      "dynamic-qr-code": ["src"],
+      "dynamic-qr-code/*": ["src/*", "*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]
